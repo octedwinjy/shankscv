@@ -1,0 +1,114 @@
+body {
+	color: black;
+	background-color: whitesmoke;
+	background-image: url("bg.jpeg");
+	background-repeat: no-repeat;
+	background-size: 750px 2100px;
+}
+
+h1 {
+	text-align: left;
+}
+
+input {
+	text-align: left;
+}
+
+input.submit {
+	margin-left: 600px;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 5%;
+}
+
+li {
+	text-align: left;
+}
+
+#p1 {
+	text-align: left;
+	margin-top: 10px;
+}
+
+.checked {
+  color: orange;
+}
+
+table, th, td, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+	page-break-inside: auto;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	.footer {
+   	width: 100%;
+   	height: 50px;
+   	background-color: whitesmoke;
+   	color: black;
+   	text-align: center;
+	}
+
+	.footer p {
+		padding-top: 15px;
+		margin-top: 10px;
+	}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.footer {
+   	width: 100%;
+   	height: 50px;
+   	background-color: whitesmoke;
+   	color: black;
+   	text-align: center;
+	}
+
+	.footer p {
+		padding-top: 15px;
+		margin-top: 10px;
+	}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.footer {
+   	width: 100%;
+   	height: 50px;
+   	background-color: whitesmoke;
+   	color: black;
+   	text-align: center;
+	}
+
+	.footer p {
+		padding-top: 15px;
+		margin-top: 10px;
+	}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.footer {
+   	width: 100%;
+   	height: 50px;
+   	background-color: whitesmoke;
+   	color: black;
+   	text-align: center;
+	}
+
+	.footer p {
+		padding-top: 15px;
+		margin-top: 10px;
+	}
+
+  /* End Navbar */

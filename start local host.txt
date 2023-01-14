@@ -1,0 +1,8 @@
+Macbook Local Host step
+
+1, ls
+2, cd HTML
+3, ls
+4, browser-sync start --server --directory --files "**/*"
+
+

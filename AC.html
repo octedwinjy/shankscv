@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="table_script.js"></script>
+	<title>Shanks 简历</title>
+</head>
+
+<!-- Content Element -->
+<body>
+
+	<div id="wrapper">
+		<table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+			<tr>
+			<th>Account</th>
+			<th>ID</th>
+			<th>Pass</th>
+			<th>Pin</th>
+			<th>Question</th>
+			<th>Answer</th>
+			<th>Remark</th>
+			</tr>
+
+			<tr id="row1">
+			<td id="Account_row1">Ankit</td>
+			<td id="ID_row1">India</td>
+			<td id="Pass_row1">20</td>
+			<td id="Pin_row1">20</td>
+			<td id="Question_row1">20</td>
+			<td id="Answer_row1">20</td>
+			<td id="Remark_row1">20</td>
+			<td>
+			<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+			<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+			<input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+			</td>
+			</tr>
+			
+			<tr>
+			<td><input type="text" id="new_Account"></td>
+			<td><input type="text" id="new_ID"></td>
+			<td><input type="text" id="new_Pass"></td>
+			<td><input type="text" id="new_Pin"></td>
+			<td><input type="text" id="new_Question"></td>
+			<td><input type="text" id="new_Answer"></td>
+			<td><input type="text" id="new_Remark"></td>
+			<td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+			</tr>
+
+		</table>
+	</div>
+
+</body>
+<!-- Content Element End -->
+
+<!-- Foot -->
+<footer>
+	<div class="footer">
+    	<p>..</p>
+  	</div>
+</footer>
+<!-- Foot End -->
+</html>
